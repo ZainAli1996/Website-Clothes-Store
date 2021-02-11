@@ -1,0 +1,292 @@
+
+.nav-link {
+			font-weight: bold;
+			margin-top: 15px;
+		}
+
+.navbar {
+	padding: 0rem 0.5rem !important;
+}
+		
+h2 {
+	padding: 20px;
+	color: darkolivegreen;
+	border: 5px solid red;
+	margin: 10px;
+}
+
+h4 {
+	font-size: 22px !important;
+	font-weight: bold;
+	margin-top: 20px !important;
+	float: right;
+}
+
+.fa-shopping-cart {
+	font-size: 40px !important;
+	margin: 10px;
+	color: darkgreen;
+}
+
+.fa-user-circle-o {
+	font-size: 40px !important;
+	margin: 10px;
+	color: darkblue;
+}
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";	
+	}
+
+.d-block{
+		height: 500px;
+	}
+
+	@media only screen and (max-width :400px){     
+
+		h2{
+			font-size: 23px !important;
+		}
+
+    	h4 {
+			font-size: 11px !important;
+		}
+		.Services {
+			padding: 5px;
+		}
+	}
+
+.Mid{
+	height: auto;
+	width: auto;	
+	text-align: center;
+	padding: 5px;
+	margin: 1px 10px;
+}
+
+.Box {
+	height: auto;
+	max-width: 400px;	
+	margin: auto;
+	padding: 10px;
+}
+
+.Detail {
+	height: 150px;
+	width: 200px;
+	margin: auto;
+	}  
+
+.naam{
+	
+	padding:2px 0px;
+	font-weight: bold;
+	border-bottom:#F00 solid 1px;
+	}	
+
+	
+.acart{
+	background:#F00;
+	color:#FFF;;
+	padding:5px;}
+
+
+.fa-envelope, .fa-map-marker, .fa-facebook-official, .fa-twitter, .fa-google-plus-official {
+
+	font-size: 25px !important;
+	margin: 0px 10px;
+}
+
+				 			/* (RESPONSIVE SCREENS SIZES) */
+
+
+
+       /* FULL SCREEN Size*/
+	   @media only screen and (max-width :1200px){     
+  
+	  
+		}
+	
+	
+	
+		/* iPad Pro LARGE Screen Size*/
+	  @media only screen and (max-width :1024px){   
+	  
+	
+	  }
+	
+	
+	
+		   /* Responsive LARGE Screen Size*/
+	  @media only screen and (max-width :992px){     
+	  
+		.navbar-nav {
+		  padding-left: 135px !important;
+		  }
+	  
+	  }
+	
+	
+	  
+		/* iPad Screen MEDIUM Size*/
+	  @media only screen and (max-width :768px){     
+	  
+		.navbar-nav {
+			padding-left: 0px !important;
+			}
+
+		.d-block {
+			height: 225px;
+		}
+
+		.fa-shopping-cart {
+			font-size: 40px !important;
+			margin: 5px 0px;
+			margin-left: 2px !important;
+		}
+		
+		.fa-user-circle-o {
+			font-size: 40px !important;
+			margin: 5px 0px;
+			margin-left: 2px !important;
+		}
+		
+		.nav-link {
+			margin-top: 5px;
+			}
+
+	  }
+	
+	    
+	   /* (Surface Duo) SMALL Screen Size */
+	  @media only screen and (max-width :576px){     
+	  
+		.d-block {
+			height: 180px;
+		}
+
+	  }
+
+	  /* (iPhone 6/7/8 Plus) Screen MEDIUM Size*/
+	  @media only screen and (max-width :414px){     
+	  
+		.navbar-nav {
+			padding-left: 0px !important;
+			}
+
+			.d-block {
+				height: 180px;
+			}
+
+		.fa-shopping-cart {
+			font-size: 40px !important;
+			margin: 5px 0px;
+			margin-left: 2px !important;
+		}
+		
+		.fa-user-circle-o {
+			font-size: 40px !important;
+			margin: 5px 0px;
+			margin-left: 2px !important;
+		}
+
+		.nav-link {
+			margin-top: 5px;
+			}
+
+			h2 {
+				padding: 5px;
+				width: 260px;
+				margin: 10px 0px 10px 46px;
+			}
+
+	}
+	
+
+	  /* (IPhone X) SMALL Screen Size */
+		@media only screen and (max-width :375px){     
+	  
+			.d-block {
+				height: 180px;
+			}
+
+			h2 {
+				padding: 5px;
+				width: 230px;
+				margin: 10px 0px 10px 43px;
+			}
+
+			h4 {
+				font-size: 16px !important;
+			}
+
+		  }
+
+
+		   /* (Galaxy S5 & Moto G4) SMALL Screen Size */
+		@media only screen and (max-width :360px){     
+
+			.navbar-nav {
+				padding-left: 0px !important;
+				}
+
+			.d-block {
+				height: 180px;
+			}
+
+			.fa-shopping-cart {
+				font-size: 40px !important;
+				margin: 5px 0px;
+				margin-left: 2px !important;
+			}
+			
+			.fa-user-circle-o {
+				font-size: 40px !important;
+				margin: 5px 0px;
+				margin-left: 2px !important;
+			}
+
+			h2 {
+				padding: 5px;
+				width: 225px;
+				margin: 10px 0px 10px 37px;
+			}
+
+			.nav-link {
+    			margin-top: 5px;
+				}
+
+		  }
+
+
+		  /* (iPhone 5/SE) Screen MEDIUM Size*/
+	  @media only screen and (max-width :320px){     
+	  
+		.d-block {
+			height: 150px;
+		}
+
+		h2 {
+			padding: 5px;
+			width: 200px;
+			margin: 10px 0px 10px 30px;
+		}
+		
+	}
+
+	  /* (Galaxy Fold) EXTRA-SMALL Screen Size */
+      @media only screen and (max-width :280px){ 	
+    
+		h2 {
+			padding: 5px;
+			width: 225px;
+			margin: 10px 0px 10px -3px;
+		}
+
+		h4 {
+			font-size: 14px !important;
+		}
+    
+    }
+    
+	
